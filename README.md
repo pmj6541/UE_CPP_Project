@@ -12,30 +12,6 @@
 
 - `Source/` - C++ 소스 코드
   - `UE_CPP_Project/` - 프로젝트 관련 C++ 클래스들
-- `Content/` - 게임 콘텐츠 (맵, 애셋 등)
-
-## 빌드 방법
-
-1. 프로젝트 클론:
-```bash
-git clone https://github.com/[YOUR_USERNAME]/UE_CPP_Project.git
-```
-
-2. 프로젝트 파일 생성:
-- `UE_CPP_Project.uproject` 파일을 우클릭
-- "Generate Visual Studio project files" 선택
-
-3. 솔루션 빌드:
-- Visual Studio에서 솔루션을 열고 빌드
-- 또는 다음 명령어 실행:
-```batch
-"[UE_PATH]\Engine\Build\BatchFiles\Build.bat" ^
-UE_CPP_ProjectEditor ^
-Win64 ^
-Development ^
--project="[PROJECT_PATH]\UE_CPP_Project.uproject" ^
--waitmutex
-```
 
 ## 주요 기능
 
@@ -46,3 +22,7 @@ Development ^
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스를 따릅니다. 
+
+## 목표
+프로젝트 구현 : 블루프린트 -> C++
+https://pmj6541.tistory.com/65
